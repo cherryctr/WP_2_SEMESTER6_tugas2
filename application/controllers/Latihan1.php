@@ -21,8 +21,8 @@ public function penjumlahan($n1 = null, $n2 = null)
     // Menambahkan alert form
     if (empty($n1) || empty($n2)) {
         echo "<script>";
-        echo "var n1 = parseInt(prompt('Masukkan angka 1:'));";
-        echo "var n2 = parseInt(prompt('Masukkan angka 2:'));";
+        echo "var n1 = parseInt(prompt('Masukkan angka :'));";
+        echo "var n2 = parseInt(prompt('Masukkan angka :'));";
         echo "if (!isNaN(n1) && !isNaN(n2)) {"; // Pastikan n1 dan n2 adalah angka
         echo "  window.location.href = '".$base_url . $dir. "/Latihan1/penjumlahan/' + n1 + '/' + n2;";
         echo "} else {";
